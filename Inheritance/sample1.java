@@ -1,0 +1,19 @@
+//Inheritance
+//Single inheritance
+
+class sample2
+{
+ int a=100;
+ }
+ class sample1 extends sample2
+ {
+  float b=120.5f;
+ public static void main(String[]args)
+ {
+  System.out.println("Start @Cyber Success");
+  sample1 s1=new sample1();
+  System.out.println(s1.a);
+  System.out.println(s1.b);
+ }
+ }
+

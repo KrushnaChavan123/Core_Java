@@ -1,0 +1,28 @@
+class Demo2
+{
+ Demo2()
+ {
+  System.out.println("Inside the Demo 0 arg const");
+ }
+}
+class Demo3 extends Demo2
+{
+ Demo3()
+ {
+  System.out.println("Inside the Demo 3 0 arg const");
+ }
+ Demo3(int a)
+ {
+   super();
+   System.out.println("Inside Demo3 1 arg const");
+  }
+}
+class Demo1
+{
+ public static void main(String[]args)
+ {
+  Demo3 d3=new Demo3();
+  Demo3 d2=new Demo3();
+ }
+}
+  

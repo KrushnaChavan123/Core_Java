@@ -1,0 +1,23 @@
+class sample1
+{
+  public static void main(String[] args)
+  {
+    System.out.println("Inside class1");
+  }
+}
+ class sample2
+ {
+   public static void main(String[] args)
+   {
+    System.out.println("Inside class 2");
+   }
+ }
+ class sample3
+ {
+  public static void main(String[] args)
+  {
+   System.out.println("Inside class 3");
+  }
+
+}
+    

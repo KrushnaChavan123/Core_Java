@@ -1,0 +1,28 @@
+class sample2
+{
+  int a;
+ {
+  System.out.println("Inside the non-static block");
+  a=10;
+ }
+ sample2()
+ {
+  System.out.println("Inside the 0 arg constructer" +a);
+  a=100;
+ }
+ void m1()
+ {
+  System.out.println("Inside the m1 method" +a);
+ }
+}
+class sample4
+{
+ public static void main(String[]args)
+ {
+  System.out.println("Start");
+  sample2 s1=new sample2();
+  s1.m1();
+  System.out.println("Stop");
+ }
+}
+

@@ -1,0 +1,22 @@
+class cyber
+{
+ {
+  System.out.println("Inside the non-static block");
+ }
+ cyber()
+{
+ System.out.println("Inside the comstructer01");
+}
+cyber(int a)
+{
+ System.out.println("Inside the constructer-2");
+}
+public static void main(String[]args)
+{
+ System.out.println("Start");
+ cyber c1=new cyber();
+ cyber c2=new cyber(100);
+ System.out.println("Stop");
+}
+
+}

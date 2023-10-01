@@ -1,0 +1,18 @@
+class sample1
+{
+ void m1(int a)
+ {
+  System.out.println("Inside m1 method--int ");
+ }
+ void m1(float b)
+ {
+  System.out.println("inside m1 method--float");
+ }
+ public static void main(String[]args)
+ {
+   System.out.println("Start");
+  sample1 s1=new sample1();
+  s1.m1(100.5f);
+  System.out.println("Stop");
+ }
+}

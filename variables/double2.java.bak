@@ -1,0 +1,22 @@
+class double2
+{
+ public static void main(String[]args)
+ {
+  double a = 200;
+  System.out.println(a);
+  double b = 300f;
+  System.out.println(b);
+  double c = 400d;
+  System.out.println(c);
+  float d = 100d;
+  System.out.println(d);
+  double e = 125.5f;
+  System.out.println(e);
+  int f = 100L;
+  System.out.println(f);
+  long g = 1244;
+  System.out.println(g);
+  long h = 1500L;
+  System.out.println(h);
+ }
+}

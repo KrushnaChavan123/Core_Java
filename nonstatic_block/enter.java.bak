@@ -1,0 +1,15 @@
+class enter
+{
+ boolean x=true;
+ static void m1(enter ss)
+ {
+  System.out.println("Inside main method");
+  System.out.println(ss.x);
+
+ }
+ public static void main(String[]args)
+ {
+ // enter s1=new enter();
+  enter.m1=(new enter());
+ }
+ }

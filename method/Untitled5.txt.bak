@@ -1,0 +1,12 @@
+class sample5
+{
+ int a= 129;
+}
+class sample6
+{
+ float b= 140.5f;
+}
+ class sample7
+ {
+  float sample result;
+ }

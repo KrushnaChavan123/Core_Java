@@ -1,0 +1,24 @@
+class sample1
+{
+ static int a=100;
+ public static void main(String[]args)
+ {
+  System.out.println("Start @ Cyber Success");
+  m1();
+  System.out.println("Stop @Cyber SUccess");
+
+ }
+ static void m1()
+	{
+	 System.out.println("Inside m1 method");
+	 System.out.println("Direcr access"+a);
+	 m2();
+	 System.out.println("ClassName"+sample1.a);
+		 sample1.m2();
+	
+	}
+	static void m2()
+	{
+		 System.out.println("Inside m2 method");
+	}
+}

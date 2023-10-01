@@ -1,0 +1,12 @@
+class char1
+{
+ public static void main(String[]args)
+ {
+  char c1 = 'a';
+  System.out.println(x);
+  char c2 = '@';
+  System.out.println(y);
+  char c3 = '8';
+  System.out.println(z);
+ }
+}

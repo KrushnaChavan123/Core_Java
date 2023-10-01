@@ -1,0 +1,32 @@
+class method1
+{
+ public static void main(String[]args)
+ {
+  m1();
+  method1.m1();
+ }
+ static void m1()
+ {
+  System.out.println("In m1 method");
+  return;
+ }
+}
+
+class method2
+{
+	public static void main(String[]args)
+	{
+		test1();
+		test2();
+	}
+	static void test1
+	{
+		 System.out.println("Inside test 1");
+			 return;
+	}
+	static void test2
+	{
+		System.out.println("Inside test 2");
+		return;
+	}
+}

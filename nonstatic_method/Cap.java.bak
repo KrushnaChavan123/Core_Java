@@ -1,0 +1,13 @@
+class Cap
+{
+ public static void main(String[]args)
+ { 
+    Cap obj1 = new Cap();
+    obj1.m1();
+  
+  }
+  void m1()
+  {
+   System.out.println("Inside m1 non-Static method")
+  }
+ }

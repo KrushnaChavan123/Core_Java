@@ -1,0 +1,22 @@
+class Nion
+{
+ public static void main(String[]args)
+ {
+  int num=9,rem,sum;
+  int temp=num;
+  for(;num>0;)
+  {
+   rem=num%10;
+   sum=(rem*rem)+sum;
+   num=num/10;
+  }
+  if(temp==sum)
+  {
+   System.out.println("NION");
+  }
+  else
+  {
+   System.out.println("Not NION");
+  }
+ }
+}

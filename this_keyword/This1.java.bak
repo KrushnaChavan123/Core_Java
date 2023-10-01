@@ -1,0 +1,16 @@
+class This1
+{
+ int a=123;
+ float b=123.4f;
+ void m1(int a,float b)
+ {
+  System.out.println("Inside m1 method");
+  System.out.println(a+b);
+  System.out.println(this.a+this.b);
+ }
+ public static void main (String[] args)
+ {
+  This refvar=new This();
+  refvar.m1(125,45.8f);
+ }
+}

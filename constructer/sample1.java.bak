@@ -1,0 +1,21 @@
+class sample1
+{
+ sample1()
+ {
+  System.out.println("Inside 0 arg constructer");
+ }
+ sample1()
+ {
+  System.out.println("Inside 1 arg constructor");
+ }
+ public static void main(String[]args)
+ {
+  System.out.println("Start");
+   sample1 s1=new sample1();
+   sample1 s2=new sample1(10);
+
+
+  System.out.println("Stop");
+  }
+ }
+ 

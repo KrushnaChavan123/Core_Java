@@ -1,0 +1,13 @@
+class method9
+{
+ public static void main(String[]args)
+ {
+  int a=100;
+  m1(a);
+  }
+  static void m1()
+  {
+   System.out.println("Inside m1 method");
+   return;
+   }
+  }

@@ -1,0 +1,15 @@
+//initialization or declaration 
+
+class for8
+{
+ public static void main(String[]args)
+	  System.out.println("Start @Cyber Success");
+	{
+      int i=10;
+      for(  ;i<=30;i++)
+        {
+          System.out.println(i);
+        }
+    }
+ System.out.println("Stop @Cyber Success");
+}

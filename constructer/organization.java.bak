@@ -1,0 +1,26 @@
+class EmpInfo
+{
+ int empId;
+ String empName;
+ EMpInfo(int empId,String empName)
+ {
+  System.out.println("Kindly wait for setting emp info");
+  this.empId=empId;
+  this.empName=empName;
+ }
+ void empInfo()
+ {
+  System.out.println("Please wait fetching employee info");
+  System.out.println("empId is "+empId+"empName is "+empName);
+ }
+}
+class organization
+{
+ public static void main(String[]args)
+ {
+  EmpInfo emp1=new EmpInfo(10,"RP");
+  emp1.empInfo();
+  EmpInfo emp2=new EmpInfo(20,"RJ");
+  emp2.empInfo();
+ }
+}

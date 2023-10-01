@@ -1,0 +1,86 @@
+class kunal{
+	public static void main(String... args){
+		m1();
+		kunal.m1();
+		m2();
+		kunal.m2();
+	}
+
+	static void m1(){
+		System.out.println("inside m1");
+		return;
+	}
+
+	static void m2(){
+		System.out.println("inside m2");
+		return;
+	}
+}
+
+
+
+class method2
+{
+	public static void main(String[]args)
+	{
+		test1();
+		test2();
+	}
+	static void test1()
+	{
+		 System.out.println("Inside test 3");
+			 return;
+	}
+	static void test2()
+	{
+		System.out.println("Inside test 4");
+		return;
+	}
+}
+
+class method3
+{ 
+	public static void main(String[]args)
+	{
+		 int a= 100;
+		 m1(a);
+    }
+	static void m1(int aa)
+	{
+		 System.out.println("Inside m1,"+aa);
+	}
+
+
+}
+
+class method4
+{
+	public static void main(String[]args)
+	{
+		 int a=10;
+		 int r=m1(a);
+		 System.out.println(r);
+	}
+	static int m1(int aa)
+	{
+		System.out.println(aa);
+		int result = aa+50;
+		return result;
+	}
+}
+
+class method5
+{
+	static int var1=100;
+	 public static void (String[]args)
+	{
+		 int var2=200;
+		 int addition=method5.var1+var2;
+		 test1(addition);
+    }
+	static void test1 (int result)
+	{
+		System.out.println(result);
+		return;
+	}
+}

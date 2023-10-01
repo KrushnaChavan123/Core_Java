@@ -1,0 +1,16 @@
+class for7
+{
+ public static void main(String[]args)
+ {
+	   //System.out.println("Start @cyber Success");
+
+  for(int i=10;i>=1;i--)
+  {
+  // System.out.println("Start @cyber Success");
+   System.out.println(i);
+  // System.out.println("Stop @cyber sucess");
+  }
+  // System.out.println("Stop @cyber sucess");
+  }
+ }
+}

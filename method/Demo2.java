@@ -1,0 +1,26 @@
+class Demo2
+{
+ public static void main(String[]args)
+ {
+  int a=100 ,b=200;
+   int result1=m1(a,b);
+   System.out.println(result1);
+  float x=125.5f,y=140.6f;
+  float result2=m2(x,y);
+  System.out.println(result2);
+
+  m2(x,y);
+ }
+ static int m1(int aa,int bb)
+ {
+  System.out.println("Inside m1 method");
+  int result=aa+bb;
+  return result;
+ }
+ static float m2(float xx,float yy)
+ {
+  System.out.println("inside m2 method");
+  float result= xx+yy;
+  return result;
+ }
+}
